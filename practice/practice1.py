@@ -1,3 +1,4 @@
+# 알고리즘수업 - 병합정렬1
 def merge_sort(p, r):
     if p < r:
         q = int((p+r)/2)
