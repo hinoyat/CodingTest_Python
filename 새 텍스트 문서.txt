@@ -1,0 +1,54 @@
+[암호문 정보] (암호문 수: 0)
+----입력데이터----
+8 8 1 1 0
+R G G G G R G X
+G G G R G G G G
+G G R R R R G G
+G G R G G G G G
+G G G G G R G G
+G G R R R R G G
+G G G G R G G G
+G A R G G G G R
+A 100 R 1 0
+X 10
+
+
+[암호문 정보] (암호문 수: 0)
+----입력데이터----
+8 8 1 1 0
+R G R R R R G X
+G G G G G G G R
+G G G R R G G G
+G R R R R R R G
+G R R R R R R G
+G G G R R G G G
+G G G G G G G G
+A G R R R R G R
+A 100 D 1 0
+X 10
+
+[맵 정보] (8 x 8)
+8 8 1 1 0
+R G G G G R G X
+G G G R G G G G
+G G R R R R G G
+G G R G G G G G
+G G G G G R G G
+G G R R R R G G
+G G G G R G G G
+A G R G G G G R
+
+
+[암호문 정보] (암호문 수: 0)
+----입력데이터----
+8 8 1 1 0
+R G G G G G G X
+G G R R R R G G
+G G G R R G G G
+G R R R R R R G
+G R R R R R R G
+G G G R R G G G
+G G R R R R G G
+A G G G G G G R
+A 100 D 1 0
+X 10

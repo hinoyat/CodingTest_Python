@@ -1,0 +1,42 @@
+# 기본 세팅
+python -m venv venv
+source venv/Scripts/activate
+pip install -r requirements.txt
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+python manage.py shell_plus
+python manage.py createsuperuser 
+
+python manage.py runserver
+
+
+django-admin startproject
+python manage.py startapp
+
+우와 좋겠다~~~ 다 했으면 답지 좀~~~
+    어어어어어ㅓ어어어ㅓ얻자ㅓㄷ어ㅏㅈ더어앚더앚더아ㅓㅏ더아젇어자더
+    현호 누나
+    나도 장고 알려줘
+    장고 왜케 잘해
+    내 장고도 풀어줘
+    
+( ͡~ ͜ʖ ͡°)
+
+### 순서
+
+1. 모델 정의
+from django.contrib.auth.models import AbstractUser
+class User(AbstractUser):
+    pass
+
+2. 세팅하기
+AUTH_USER_MODEL = '앱.함수 이름'
+
+
+3. admin
+from django.contrib.auth.admin import UserAdmin
+from .models import User
+admin.site.register(User, UserAdmin)

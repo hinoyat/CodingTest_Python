@@ -43,7 +43,7 @@ def find_F(start, end):
 def hacking(hint):
     result = 'G '
     for h in hint:
-        result += chr((ord(h) - 65 - 7) % 26 + 65)
+        result += chr((ord(h) - 65 + 9) % 26 + 65)
 
     return result
 
@@ -103,17 +103,17 @@ for i in range(N):
                 hacking_point = (i, j)
 
     arr.append(lst)
-print(end_point)
+# print(end_point)
 
 
-print('최적 경로')
-result, path, order = daddys_love(start_point, end_point)
-print(path)
-print(order)
+# print('최적 경로')
+# result, path, order = daddys_love(start_point, end_point)
+# print(path)
+# print(order)
 
-print(hacking('ABCSEZ'))
+print(hacking('SRKKCVJJRWP'))
 
-result2, path2, order2 = find_F(start_point, hacking_point)
-print('보급 경로')
-print(path2)
-print(order2)
+# result2, path2, order2 = find_F(start_point, hacking_point)
+# print('보급 경로')
+# print(path2)
+# print(order2)
