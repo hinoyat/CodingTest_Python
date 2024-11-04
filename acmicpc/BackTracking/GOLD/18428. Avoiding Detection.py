@@ -52,5 +52,3 @@ for i in range(N):
             temp_path = first_check(i, j)
             make_wall_point += temp_path
 
-# print(set(make_wall_point))
-# print(len(set(make_wall_point)))
