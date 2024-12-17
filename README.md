@@ -1,4 +1,4 @@
-# 🖥️ Coding_Test_Python
+# 🖥️ CodingTest_Python
 
 # 📚 Algorithm Study Progress
 ---
