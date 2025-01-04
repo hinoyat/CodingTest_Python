@@ -4,7 +4,7 @@
 ---
 ## 🌟 Current Status
 ```
-📈 Total Problems Solved: Updating.....
+📈 Total Problems Solved: Updating....
 ```
 ### 🏆 Problems By Difficulty
 ```
